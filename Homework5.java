@@ -22,6 +22,10 @@ y = b;
 	 * substring method in the String class
 	 */
 	public String substring(int index, int length) {
+		/* Almost. Remember the substring method
+		 * in the String class takes in two indices,
+		 * this method takes an index and a length
+		 */
 			if(t.substring(index, length).equals(t)){
 				String g = t.substring(index, length);
 				return g;
@@ -38,6 +42,10 @@ y = b;
 	 * an example
 	 */
 	public boolean contains(String s) {
+		/* indexOf returns a number. So we
+		 * cannot use the .equals method on it
+		 * What should it equal?
+		 */
 		if(t.indexOf(s).equals(s)){
 			return true;
 		} else {
