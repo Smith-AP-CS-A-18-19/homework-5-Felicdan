@@ -38,11 +38,12 @@ y = b;
 	 * an example
 	 */
 	public boolean contains(String s) {
-		if(t.indexOf(s).equals(s)){
+		if(t.contains(s)){
 			return true;
 		} else {
 			return false;
 		}
+
 	}
 
 	/* Return the larger of the two stored numbers
